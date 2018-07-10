@@ -1,0 +1,7 @@
+function friend(friends){
+  var arr2=[];
+  arr2=friends.filter(function(element){
+      return element.length==4
+  })
+ return arr2;
+}
